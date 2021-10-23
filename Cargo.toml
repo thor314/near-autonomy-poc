@@ -1,0 +1,11 @@
+[workspace]
+name = "near-autonomy-poc"
+version = "0.1.0"
+edition = "2021"
+authors = ["Thor Kamphefner <thor@near.foundation>"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+members = [
+    "ft",
+    "trader"
+]
